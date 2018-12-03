@@ -37,6 +37,8 @@
                         @if (!Auth::guest())
                         <li> <a class="nav-link" href="{{url('/')}}"> Home </a> </li>
 
+                        <li> <a class="nav-link" href="{{url('/')}}"> Upload</a></li>
+
                         <div class="btn-group">
                           <a  class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Documentos

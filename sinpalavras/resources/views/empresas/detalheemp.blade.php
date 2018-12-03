@@ -6,8 +6,8 @@
     <div class="container">
         <div class="card">
                 <div class="card-header">
-                    Lista de Documentos
-                    <a class="float-right" href="{{url('documentos/novo')}}">Novo Documento</a>
+                    Detalhes da Empresa
+
                 </div>
                
 
@@ -23,12 +23,12 @@
                         <thead align="center">
 
                         <th>ID </th>
-                       
-                        <th> Tipo Doc</th>
-                        <th> Descrição </th>
-                        <th> Observações </th>
+                        <th> Nome da Empresa </th>
+                        <th> CNPJ</th>
+                        <th> Descrição da Empresa </th>
                         
-                        <th> Ações</th>
+                        
+                        
 
 
                         </thead>
@@ -38,23 +38,15 @@
                             <tr>
                                 <td> 01 </td>
 
-                           
+                                <td>exemplo </td>
                            
                                 <td>exemplo </td>
 
                                 <td>exemplo </td>
 
-                                <td> exemplo </td>
+                                
 
 
-                                <td>   
-                                <button class="btn"> <a href="{{url('documentos/detalhe')}}"> V </a></button>
-
-                                 
-                                    <button class="btn btn-default"> E </button>
-                                    <button class="btn btn-default"> D </button>
-
-                                </td>
                             </tr>
                         </tbody>
   
@@ -62,7 +54,11 @@
         </table>
     </form>
 
-
+<a  href="{{ url('empresas') }}">
+                <button class="btn btn-primary">    
+                 Voltar 
+                </button>
+                </a>
 </div>
 </div>
 

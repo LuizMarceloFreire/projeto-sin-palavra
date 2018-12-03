@@ -23,7 +23,7 @@
                         <thead align="center">
 
                         <th>ID </th>
-                        <th> Nome Doc </th>
+                        
                         <th> Tipo Doc</th>
                         <th> Descrição </th>
                         <th> Observações </th>
@@ -39,7 +39,7 @@
                             <tr>
                                 <td> 01 </td>
 
-                                <td>exemplo </td>
+                            
                            
                                 <td>exemplo </td>
 
